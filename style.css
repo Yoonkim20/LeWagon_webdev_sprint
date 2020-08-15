@@ -1,0 +1,61 @@
+/* Write some CSS below */
+
+body {
+	font-family: Montserrat;
+	font-weight: 300;
+	color: black;
+}
+
+h3 {
+	font-family: 'Roboto Mono', monospace;
+	}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	color: white;
+	text-align: center;
+	margin: 10%;
+	width: 80%;
+}
+
+.banner {
+	margin: 30px auto;
+	width: 500px;
+	height: 300px;
+	padding: 30px 100px;
+
+	background-color: black;
+
+	font-family: 'Roboto Mono', monospace;
+}
+
+.banner_sub1 {
+	padding: 200px 100px;
+}
+
+.banner_sub2 {
+	margin: 50px auto;
+	padding: 100px 0px 100px 0px;
+}
+
+.cards_container {
+	color: black;
+}
+
+.cards_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.film {
+	color: black;
+}
+
+.film img {
+	width: 300px;
+}
